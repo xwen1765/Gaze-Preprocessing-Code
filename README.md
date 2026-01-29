@@ -1,7 +1,7 @@
 # Gaze-Preprocessing-Code
 
 ## Overview
-This repository contains the gaze data preprocessing and analysis pipeline for the manuscript **"Two Distinct Attentional Priorities Guide Exploratory and Exploitative Gaze."** The codebase is designed to transform raw session data into interpretable visualizations and statistical classifications. [cite_start]It focuses on two primary analytical outputs: spatial heatmaps representing gaze density and temporal classification of eye events (saccades, fixations, and smooth pursuit)[cite: 1].
+This repository contains the gaze data preprocessing and analysis pipeline for the manuscript **"Two Distinct Attentional Priorities Guide Exploratory and Exploitative Gaze."** The codebase is designed to transform raw session data into interpretable visualizations and statistical classifications. [cite_start]It focuses on two primary analytical outputs: spatial heatmaps representing gaze density and temporal classification of eye events (saccades, fixations, and smooth pursuit) (Voloh et al., 2020).
 
 ## Analysis Pipeline & Logic
 
@@ -38,10 +38,10 @@ The final stage segments the continuous gaze stream into discrete behavioral eve
 
 ### Prerequisites
 * MATLAB (versions compatible with the `imagesc` and `histcounts2` functions).
-* [cite_start]The raw data folder structure must match the `Session_1__Subject...` format expected by the parser[cite: 8].
+* The raw data folder structure must match the `Session_1__Subject...` format expected by the parser.
 
 ### Step 1: Import Gaze Data
-Run the processing function to generate the `.mat` files for a specific session. [cite_start]Ensure the `gazeArgs` is set to `'proceed'`[cite: 5, 6].
+Run the processing function to generate the `.mat` files for a specific session. Ensure the `gazeArgs` is set to `'proceed'`.
 
 ```matlab
 ProcessingSingleSessionData('dataFolder', '/path/to/Session_Folder', ...
