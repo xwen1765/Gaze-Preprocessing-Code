@@ -1,7 +1,7 @@
 # Gaze-Preprocessing-Code
 
 ## Overview
-This repository contains the gaze data preprocessing and analysis pipeline for the manuscript **"Two Distinct Attentional Priorities Guide Exploratory and Exploitative Gaze."** The codebase is designed to transform raw session data into interpretable visualizations and statistical classifications. [cite_start]It focuses on two primary analytical outputs: spatial heatmaps representing gaze density and temporal classification of eye events (saccades, fixations, and smooth pursuit) (Voloh et al., 2020).
+This repository contains the gaze data preprocessing and analysis pipeline for the manuscript **"Two Distinct Attentional Priorities Guide Exploratory and Exploitative Gaze."** The codebase is designed to transform raw session data into interpretable visualizations and statistical classifications. It focuses on two primary analytical outputs: spatial heatmaps representing gaze density and temporal classification of eye events (saccades, fixations, and smooth pursuit) (Voloh et al., 2020). Other data related with the paper can be found on [Zenodo](https://zenodo.org/records/18310415).
 
 ## Analysis Pipeline & Logic
 
